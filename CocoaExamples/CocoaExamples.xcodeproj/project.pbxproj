@@ -17,6 +17,7 @@
 		974BDA1E183E4AD200DE4C5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974BD9FE183E4AD200DE4C5F /* Cocoa.framework */; };
 		974BDA26183E4AD200DE4C5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 974BDA24183E4AD200DE4C5F /* InfoPlist.strings */; };
 		974BDA29183E4AD300DE4C5F /* CocoaExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 974BDA28183E4AD300DE4C5F /* CocoaExamplesTests.m */; };
+		97D781BA184375B700D3EC12 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D781B9184375B700D3EC12 /* AppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		974BDA25183E4AD200DE4C5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		974BDA27183E4AD300DE4C5F /* CocoaExamplesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaExamplesTests.h; sourceTree = "<group>"; };
 		974BDA28183E4AD300DE4C5F /* CocoaExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaExamplesTests.m; sourceTree = "<group>"; };
+		97D781B8184375B700D3EC12 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		97D781B9184375B700D3EC12 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		974BDA04183E4AD200DE4C5F /* CocoaExamples */ = {
 			isa = PBXGroup;
 			children = (
+				97D781B8184375B700D3EC12 /* AppController.h */,
+				97D781B9184375B700D3EC12 /* AppController.m */,
 				974BDA10183E4AD200DE4C5F /* AppDelegate.h */,
 				974BDA11183E4AD200DE4C5F /* AppDelegate.m */,
 				974BDA13183E4AD200DE4C5F /* MainMenu.xib */,
@@ -263,6 +268,7 @@
 			files = (
 				974BDA0B183E4AD200DE4C5F /* main.m in Sources */,
 				974BDA12183E4AD200DE4C5F /* AppDelegate.m in Sources */,
+				97D781BA184375B700D3EC12 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +458,7 @@
 				974BDA2E183E4AD300DE4C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		974BDA2F183E4AD300DE4C5F /* Build configuration list for PBXNativeTarget "CocoaExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +467,7 @@
 				974BDA31183E4AD300DE4C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
