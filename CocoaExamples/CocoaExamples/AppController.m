@@ -13,11 +13,25 @@
 
 - (void) awakeFromNib
 {
+    /*
     [label setFont:[NSFont fontWithName:@"Herculanum" size:15]];
     [label setTextColor:[NSColor redColor]];
     [label setBackgroundColor:[NSColor blueColor]];
     [label setDrawsBackground:YES];
     [label setSelectable:YES];
+    */
+    [dateField setDateValue:[NSDate date]];
+    
+    
+    
+}
+
+- (IBAction)showMe:(id)sender
+{
+    NSString *str = [NSString stringWithFormat:@"%@ was here at %@",
+                    [nameField stringValue],
+                    [dateField dateValue]];
+    [labelName setStringValue:str];
     
 }
 

@@ -10,11 +10,20 @@
 
 @interface AppController : NSObject{
 @private
+    IBOutlet NSTextField *labelName;
+    IBOutlet NSTextField *nameField;
+    IBOutlet NSDatePicker *dateField;
+
+    
     IBOutlet NSTextField *label;
     
     
+
 }
+- (IBAction)showMe:(id)sender;
 
 - (IBAction)sayHello:(id)sender;
+
+
 
 @end
