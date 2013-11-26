@@ -19,6 +19,7 @@
 		974BDA29183E4AD300DE4C5F /* CocoaExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 974BDA28183E4AD300DE4C5F /* CocoaExamplesTests.m */; };
 		97D781BA184375B700D3EC12 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D781B9184375B700D3EC12 /* AppController.m */; };
 		97D8D08818449F6A00A3ABF2 /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D8D08718449F6A00A3ABF2 /* Slider.m */; };
+		97D8D08B1844C9BE00A3ABF2 /* SuperPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D8D08A1844C9BE00A3ABF2 /* SuperPopUpButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		97D781B9184375B700D3EC12 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		97D8D08618449F6A00A3ABF2 /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
 		97D8D08718449F6A00A3ABF2 /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		97D8D0891844C9BE00A3ABF2 /* SuperPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperPopUpButton.h; sourceTree = "<group>"; };
+		97D8D08A1844C9BE00A3ABF2 /* SuperPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperPopUpButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 		974BDA04183E4AD200DE4C5F /* CocoaExamples */ = {
 			isa = PBXGroup;
 			children = (
+				97D8D0891844C9BE00A3ABF2 /* SuperPopUpButton.h */,
+				97D8D08A1844C9BE00A3ABF2 /* SuperPopUpButton.m */,
 				97D8D08618449F6A00A3ABF2 /* Slider.h */,
 				97D8D08718449F6A00A3ABF2 /* Slider.m */,
 				97D781B8184375B700D3EC12 /* AppController.h */,
@@ -275,6 +280,7 @@
 				974BDA12183E4AD200DE4C5F /* AppDelegate.m in Sources */,
 				97D781BA184375B700D3EC12 /* AppController.m in Sources */,
 				97D8D08818449F6A00A3ABF2 /* Slider.m in Sources */,
+				97D8D08B1844C9BE00A3ABF2 /* SuperPopUpButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
