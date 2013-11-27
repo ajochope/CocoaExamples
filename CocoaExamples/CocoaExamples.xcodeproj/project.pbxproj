@@ -18,6 +18,7 @@
 		974BDA1E183E4AD200DE4C5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974BD9FE183E4AD200DE4C5F /* Cocoa.framework */; };
 		974BDA26183E4AD200DE4C5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 974BDA24183E4AD200DE4C5F /* InfoPlist.strings */; };
 		974BDA29183E4AD300DE4C5F /* CocoaExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 974BDA28183E4AD300DE4C5F /* CocoaExamplesTests.m */; };
+		976791781846045B0039E6BB /* turtleico.icns in Resources */ = {isa = PBXBuildFile; fileRef = 976791771846045B0039E6BB /* turtleico.icns */; };
 		97D781BA184375B700D3EC12 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D781B9184375B700D3EC12 /* AppController.m */; };
 		97D8D08818449F6A00A3ABF2 /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D8D08718449F6A00A3ABF2 /* Slider.m */; };
 		97D8D08B1844C9BE00A3ABF2 /* SuperPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D8D08A1844C9BE00A3ABF2 /* SuperPopUpButton.m */; };
@@ -56,6 +57,7 @@
 		974BDA25183E4AD200DE4C5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		974BDA27183E4AD300DE4C5F /* CocoaExamplesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaExamplesTests.h; sourceTree = "<group>"; };
 		974BDA28183E4AD300DE4C5F /* CocoaExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaExamplesTests.m; sourceTree = "<group>"; };
+		976791771846045B0039E6BB /* turtleico.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = turtleico.icns; path = ../turtleico.icns; sourceTree = "<group>"; };
 		97D781B8184375B700D3EC12 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		97D781B9184375B700D3EC12 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		97D8D08618449F6A00A3ABF2 /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		974BDA05183E4AD200DE4C5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				976791771846045B0039E6BB /* turtleico.icns */,
 				97FFA536184535E400ACCC30 /* turtle.jpg */,
 				974BDA06183E4AD200DE4C5F /* CocoaExamples-Info.plist */,
 				974BDA07183E4AD200DE4C5F /* InfoPlist.strings */,
@@ -251,6 +254,7 @@
 				974BDA0F183E4AD200DE4C5F /* Credits.rtf in Resources */,
 				974BDA15183E4AD200DE4C5F /* MainMenu.xib in Resources */,
 				97FFA537184535E400ACCC30 /* turtle.jpg in Resources */,
+				976791781846045B0039E6BB /* turtleico.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
